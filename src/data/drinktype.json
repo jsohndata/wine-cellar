@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "type": "red"
+  },
+
+  {
+    "id": 2,
+    "type": "white"
+  },
+
+  {
+    "id": 3,
+    "type": "sparkling"
+  },
+
+  {
+    "id": 4,
+    "type": "rose"
+  },
+
+  {
+    "id": 5,
+    "type": "dessert"
+  },
+
+  {
+    "id": 6,
+    "type": "port"
+  }
+]
