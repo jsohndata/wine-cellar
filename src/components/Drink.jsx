@@ -21,27 +21,29 @@ export default function Drink() {
         <button onClick={() => setDrinkType('port')}>Port</button>
       </nav>
 
-      <div>
+      <div className="button-getdrink">
         <button onClick={()=> getDrink(drinkType)}>Get Drink</button>
       </div>
 
-      <h2>{drinkType}</h2>
-      <div className="drink-list">
-        {
-          !drinkList
-            ? <p>No Drink</p>
-            : drinkList.map( (element,index) => {
-              
-              return (
-                <div key={index}>
-                  <img src={element.image} alt="cover" />
-                  <h3>{element.wine}</h3>
-                  <p>Location: {element.location}</p>
-                  <p>Rating: {element.rating.average}</p>
-                  <p>Reviews: {element.rating.reviews}</p>
-                </div>);
-            })
-        }
+      <div className="drink-container">
+        <h2>{drinkType}</h2>
+        <div className="drink-list">
+          {
+            !drinkList
+              ? <p>No Drink</p>
+              : drinkList.map( (element,index) => {
+                
+                return (
+                  <div key={index} className="hover-effect">
+                    <img src={element.image} alt="cover" />
+                    <h3>{element.wine}</h3>
+                    <p>Location: {element.location}</p>
+                    <p>Rating: {element.rating.average}</p>
+                    <p>Reviews: {element.rating.reviews}</p>
+                  </div>);
+              })
+          }
+        </div>
       </div>
     </section>
   )
