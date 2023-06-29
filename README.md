@@ -1,6 +1,6 @@
 # Wine Cellar React
 
-![screen shot](./public/images/readme.png)
+[![screen shot](./public/images/readme.png)](https://bp.com)
 
 I developed a React application to explore the implementation of useState, Fetch, and map functions. The app utilizes SampleApi to retrieve the necessary data.
 
