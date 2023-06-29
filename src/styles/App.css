@@ -1,3 +1,8 @@
+body {
+  background: rgb(224,69,137);
+  background: linear-gradient(184deg, rgba(224,69,137,1) 0%, rgba(247,87,157,1) 11%, rgba(148,187,233,1) 52%);
+}
+
 nav,
 .button-getdrink {
   display: flex;
