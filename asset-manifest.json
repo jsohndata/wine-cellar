@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wine-cellar/static/css/main.7449a80b.css",
+    "main.js": "/wine-cellar/static/js/main.76b713ee.js",
+    "index.html": "/wine-cellar/index.html",
+    "main.7449a80b.css.map": "/wine-cellar/static/css/main.7449a80b.css.map",
+    "main.76b713ee.js.map": "/wine-cellar/static/js/main.76b713ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7449a80b.css",
+    "static/js/main.76b713ee.js"
+  ]
+}
