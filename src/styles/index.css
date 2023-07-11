@@ -15,6 +15,6 @@ p {
   font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
-footer {
+footer p {
   text-align: center;
 }

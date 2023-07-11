@@ -30,7 +30,7 @@ export default function Drink() {
         <div className="drink-list">
           {
             !drinkList
-              ? <p>No Drink</p>
+              ? <h2>Select Drink Type Above then click Get Drink</h2> 
               : drinkList.map( (element,index) => {
                 
                 return (

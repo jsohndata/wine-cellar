@@ -6,11 +6,11 @@ React application to explore the implementation of useState, Fetch, and map func
 
 
 ## Website
-[click on this link](https://jsohn-wine-cellar.web.app)
+[jsohndata.github.io/wine-cellar](https://jsohndata.github.io/wine-cellar)
 
 <br>
 
 ## Features
 * useState()
-* Fetch
+* Fetch (sans useEffect() )
 * map()
