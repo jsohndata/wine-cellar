@@ -1,6 +1,6 @@
 
 const currentYear = new Date().getFullYear();
-const gitHubUrl = "https://github.com/jsohndata";
+const gitHubUrl = "https://github.com/jsohndata/wine-cellar";
 
 export default function Footer() {
 
